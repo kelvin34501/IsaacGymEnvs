@@ -14,7 +14,7 @@ root_dir = os.path.dirname(os.path.realpath(__file__))
 # Minimum dependencies required prior to installation
 INSTALL_REQUIRES = [
     # RL
-    "gym==0.23.1",
+    "gym>=0.23.1",
     "torch",
     "omegaconf",
     "termcolor",
@@ -22,10 +22,10 @@ INSTALL_REQUIRES = [
     "hydra-core>=1.2",
     "rl-games>=1.6.0",
     "pyvirtualdisplay",
-    "urdfpy==0.0.22",
-    "pysdf==0.1.9",
-    "warp-lang==0.10.1",
-    "trimesh==3.23.5",
+    #"urdfpy>=0.0.22",
+    "pysdf>=0.1.9",
+    "warp-lang>=0.10.1",
+    "trimesh>=3.23.5",
     ]
 
 
